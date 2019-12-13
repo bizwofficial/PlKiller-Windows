@@ -17,7 +17,7 @@ Computer 2
 ```
 And then run this in shell:
 ```
-plkiller <configuration file name>
+plkiller <configuration file name> [-v]
 ```
 ## Verbosed Mode
 PlKiller is able to receive a optional argument `-v`, additional information will be showed on the screen.
