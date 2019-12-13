@@ -8,7 +8,7 @@ go build
 ```
 But before this, you should change `$GOPATH$` to current directory by double-click run `Set_GOPATH.bat`.
 
-##Run
+## Run
 Before you use PlKiller, you need to create a new configuration file which includes all names of devices you want to kill.Format is like this:
 ```
 Computer 1
@@ -17,7 +17,7 @@ Computer 2
 ```
 And then run this in shell:
 ```
-plkiller _<configuration file name>_
+plkiller <configuration file name>
 ```
 ## Verbosed Mode
 PlKiller is able to receive a optional argument `-v`, additional information will be showed on the screen.
