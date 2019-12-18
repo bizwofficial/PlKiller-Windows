@@ -21,5 +21,5 @@ func GetFile(filename string) ([]string, error) {
 		}
 		result = append(result, string(line))
 	}
-	return result,nil
+	return result, nil
 }
