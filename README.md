@@ -17,7 +17,11 @@ Computer 2
 ```
 And then run this in shell:
 ```
-plkiller <configuration file name> [-v]
+plkiller <configuration file name> [-im <process to kill>] [-v]
 ```
+
+## Specific Process Mode
+You can kill a specific process on remote device by adding argument `-im` in calling PlKiller.
+
 ## Verbosed Mode
 PlKiller is able to receive a optional argument `-v`, additional information will be showed on the screen.
