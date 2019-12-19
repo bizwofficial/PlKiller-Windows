@@ -1,1 +1,1 @@
-del plkiller.exe
+@del plkiller.exe
