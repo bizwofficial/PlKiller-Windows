@@ -45,6 +45,6 @@ func main() {
 func prompt() {
 	fmt.Println("Plkiller 2.1 for Windows")
 	fmt.Println("\nUsage: plkiller <Configuration File Name> [-im <process name>] [-v]")
-	fmt.Println("\nThis program is for volume remote controlling. For more details, visit https://github.com/bizwofficial/plkiller-windows")
+	fmt.Println("\nThis program is for volume remote controlling. For more details, visit https://github.com/bizwofficial/plkiller-windows\n")
 	return
 }
