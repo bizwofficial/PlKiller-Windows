@@ -2,5 +2,6 @@ language: go
 go:
   - "1.x"
 before_install:
+  unset GOROOT
   export GOPATH=$(cd "$(dirname "$0")"; pwd)
 script: go build
