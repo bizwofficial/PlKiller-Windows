@@ -1,0 +1,6 @@
+language: go
+go:
+  - "1.x"
+before_install:
+  export GOPATH=.
+script: go build
